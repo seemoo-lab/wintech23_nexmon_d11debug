@@ -1,0 +1,221 @@
+--- ucode.bcm43455c0.7_45_241.beaut.asm.backup	2023-09-26 10:33:42
++++ ucode.bcm43455c0.7_45_241.beaut.asm	2023-09-26 10:33:42
+@@ -11,0 +12,2 @@
++	mov 0x0, r10
++	mov 0x0, r48
+@@ -8863,0 +8866,188 @@
++	rets
++LX1_extract_cond_regs:
++	mov 0x0, r49
++	mov 0x0, r52
++	mov 0x0, r54
++	mov 0x0, r55
++	mov 0x0, r56
++	mov 0x0, r58
++	mov 0x0, r60
++	mov 0x0, r61
++LX1_cond_01:
++	jnext 0x1, LX1_cond_02
++	orx 0, 0x1, 0x1, r49, r49
++LX1_cond_02:
++	jnext 0x2, LX1_cond_03
++	orx 0, 0x2, 0x1, r49, r49
++LX1_cond_03:
++	jnext 0x3, LX1_cond_04
++	orx 0, 0x3, 0x1, r49, r49
++LX1_cond_04:
++	jnext 0x4, LX1_cond_05
++	orx 0, 0x4, 0x1, r49, r49
++LX1_cond_05:
++	jnext 0x5, LX1_cond_06
++	orx 0, 0x5, 0x1, r49, r49
++LX1_cond_06:
++	jnext 0x6, LX1_cond_07
++	orx 0, 0x6, 0x1, r49, r49
++LX1_cond_07:
++	jnext 0x7, LX1_cond_09
++	orx 0, 0x7, 0x1, r49, r49
++LX1_cond_09:
++	jnext 0x9, LX1_cond_10
++	orx 0, 0x9, 0x1, r49, r49
++LX1_cond_10:
++	jnext 0x10, LX1_cond_11
++	orx 0, 0x0, 0x1, r52, r52
++LX1_cond_11:
++	jnext 0x11, LX1_cond_12
++	orx 0, 0x1, 0x1, r52, r52
++LX1_cond_12:
++	jnext 0x12, LX1_cond_13
++	orx 0, 0x2, 0x1, r52, r52
++LX1_cond_13:
++	jnext 0x13, LX1_cond_15
++	orx 0, 0x3, 0x1, r52, r52
++LX1_cond_15:
++	jnext 0x15, LX1_cond_16
++	orx 0, 0x5, 0x1, r52, r52
++LX1_cond_16:
++	jnext 0x16, LX1_cond_17
++	orx 0, 0x6, 0x1, r52, r52
++LX1_cond_17:
++	jnext 0x17, LX1_cond_18
++	orx 0, 0x7, 0x1, r52, r52
++LX1_cond_18:
++	jnext 0x18, LX1_cond_19
++	orx 0, 0x8, 0x1, r52, r52
++LX1_cond_19:
++	jnext 0x19, LX1_cond_1B
++	orx 0, 0x9, 0x1, r52, r52
++LX1_cond_1B:
++	jnext 0x1B, LX1_cond_22
++	orx 0, 0xB, 0x1, r52, r52
++LX1_cond_22:
++	jnext 0x22, LX1_cond_28
++	orx 0, 0x2, 0x1, r54, r54
++LX1_cond_28:
++	jnext 0x28, LX1_cond_2A
++	orx 0, 0x8, 0x1, r54, r54
++LX1_cond_2A:
++	jnext 0x2A, LX1_cond_2B
++	orx 0, 0xA, 0x1, r54, r54
++LX1_cond_2B:
++	jnext 0x2B, LX1_cond_2C
++	orx 0, 0xB, 0x1, r54, r54
++LX1_cond_2C:
++	jnext 0x2C, LX1_cond_2D
++	orx 0, 0xC, 0x1, r54, r54
++LX1_cond_2D:
++	jnext 0x2D, LX1_cond_2E
++	orx 0, 0xD, 0x1, r54, r54
++LX1_cond_2E:
++	jnext 0x2E, LX1_cond_31
++	orx 0, 0xE, 0x1, r54, r54
++LX1_cond_31:
++	jnext 0x31, LX1_cond_33
++	orx 0, 0x1, 0x1, r55, r55
++LX1_cond_33:
++	jnext 0x33, LX1_cond_34
++	orx 0, 0x3, 0x1, r55, r55
++LX1_cond_34:
++	jnext 0x34, LX1_cond_35
++	orx 0, 0x4, 0x1, r55, r55
++LX1_cond_35:
++	jnext 0x35, LX1_cond_38
++	orx 0, 0x5, 0x1, r55, r55
++LX1_cond_38:
++	jnext 0x38, LX1_cond_39
++	orx 0, 0x8, 0x1, r55, r55
++LX1_cond_39:
++	jnext 0x39, LX1_cond_3A
++	orx 0, 0x9, 0x1, r55, r55
++LX1_cond_3A:
++	jnext 0x3A, LX1_cond_3B
++	orx 0, 0xA, 0x1, r55, r55
++LX1_cond_3B:
++	jnext 0x3B, LX1_cond_40
++	orx 0, 0xB, 0x1, r55, r55
++LX1_cond_40:
++	jnext 0x40, LX1_cond_41
++	orx 0, 0x0, 0x1, r56, r56
++LX1_cond_41:
++	jnext 0x41, LX1_cond_42
++	orx 0, 0x1, 0x1, r56, r56
++LX1_cond_42:
++	jnext 0x42, LX1_cond_43
++	orx 0, 0x2, 0x1, r56, r56
++LX1_cond_43:
++	jnext 0x43, LX1_cond_44
++	orx 0, 0x3, 0x1, r56, r56
++LX1_cond_44:
++	jnext 0x44, LX1_cond_45
++	orx 0, 0x4, 0x1, r56, r56
++LX1_cond_45:
++	jnext 0x45, LX1_cond_46
++	orx 0, 0x5, 0x1, r56, r56
++LX1_cond_46:
++	jnext 0x46, LX1_cond_47
++	orx 0, 0x6, 0x1, r56, r56
++LX1_cond_47:
++	jnext 0x47, LX1_cond_49
++	orx 0, 0x7, 0x1, r56, r56
++LX1_cond_49:
++	jnext 0x49, LX1_cond_4A
++	orx 0, 0x9, 0x1, r56, r56
++LX1_cond_4A:
++	jnext 0x4A, LX1_cond_4B
++	orx 0, 0xA, 0x1, r56, r56
++LX1_cond_4B:
++	jnext 0x4B, LX1_cond_4C
++	orx 0, 0xB, 0x1, r56, r56
++LX1_cond_4C:
++	jnext 0x4C, LX1_cond_50
++	orx 0, 0xC, 0x1, r56, r56
++LX1_cond_50:
++	jnext 0x50, LX1_cond_51
++	orx 0, 0x0, 0x1, r58, r58
++LX1_cond_51:
++	jnext 0x51, LX1_cond_52
++	orx 0, 0x1, 0x1, r58, r58
++LX1_cond_52:
++	jnext 0x52, LX1_cond_53
++	orx 0, 0x2, 0x1, r58, r58
++LX1_cond_53:
++	jnext 0x53, LX1_cond_54
++	orx 0, 0x3, 0x1, r58, r58
++LX1_cond_54:
++	jnext 0x54, LX1_cond_55
++	orx 0, 0x4, 0x1, r58, r58
++LX1_cond_55:
++	jnext 0x55, LX1_cond_56
++	orx 0, 0x5, 0x1, r58, r58
++LX1_cond_56:
++	jnext 0x56, LX1_cond_57
++	orx 0, 0x6, 0x1, r58, r58
++LX1_cond_57:
++	jnext 0x57, LX1_cond_58
++	orx 0, 0x7, 0x1, r58, r58
++LX1_cond_58:
++	jnext 0x58, LX1_cond_60
++	orx 0, 0x8, 0x1, r58, r58
++LX1_cond_60:
++	jnext 0x60, LX1_cond_61
++	orx 0, 0x0, 0x1, r60, r60
++LX1_cond_61:
++	jnext 0x61, LX1_cond_62
++	orx 0, 0x1, 0x1, r60, r60
++LX1_cond_62:
++	jnext 0x62, LX1_cond_63
++	orx 0, 0x2, 0x1, r60, r60
++LX1_cond_63:
++	jnext 0x63, LX1_cond_71
++	orx 0, 0x3, 0x1, r60, r60
++LX1_cond_71:
++	jnext 0x71, LX1_return
++	orx 0, 0x1, 0x1, r61, r61
++LX1_return:
+@@ -8864,0 +9055,26 @@
++LX2_stop_psm: //set a "breakpoint", psm stops here and prevents the host from resetting.
++	calls LX1_extract_cond_regs //extract cond regs
++	orx 7, 8, IHR_TSF_RANDOM, r10, r10 //set random breakpoint id
++LX2_loop:
++	jzx 0x0, 0xF, r48, 0x0, LX2_return //check if debugger is armed
++	jnzx 0x0, 0xE, r48, 0x0, LX2_continue //continue execution until breakpoint is reached again
++	and r10, 0xFF, r31
++	and r48, 0xFF, r53
++	je r53, 0x0, LX2_skip_breakpoint_number_check //if target is set to 0x0 -> wildcard breakpoint
++	jne r31, r53, LX2_return //check if right breakpoint is reached
++LX2_skip_breakpoint_number_check:
++	calls LX3_keep_watchdog_occupied
++	napv 0xC00
++	jmp LX2_loop
++LX2_continue:
++	mov 0x4000, r53
++	nand r48, r53, r48 //clear continue flag
++LX2_return:
++	mov 0x0, r10 //clear current breakpoint register
++	rets
++LX3_keep_watchdog_occupied:
++	or	0x1, IHR_PSM_MAC_INTSTAT_L, IHR_PSM_MAC_INTSTAT_L //avoid "wlc_bmac_suspend_mac_and_wait: waited 83000 uS and MI_MACSSPNDD is still not on." error message
++	mov	0x6000, IHR_TSF_GPT_0_VAL_L //give watchdog something to play with
++	or	[SHM_WATCHDOG_8TU], 0x0, IHR_TSF_GPT_0_VAL_H
++	mov	0xC000, IHR_TSF_GPT_0_STAT
++	rets

@@ -1,0 +1,7 @@
+log
+obj
+gen
+BUILD_NUMBER
+*.bin
+src/templateram.c
+src/ucode_compressed.c
